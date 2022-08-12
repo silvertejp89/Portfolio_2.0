@@ -1,21 +1,22 @@
-import KrissLogo from './KrissLogo.PNG';
 import './App.css';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={KrissLogo} className="App-logo" alt="logo" />
-        <p>I'm happy to see you!</p>
-        <a
-          className="App-link"
-          href="https://www.google.se/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Something now!
-        </a>
-      </header>
+      <Header />
+      <Body />
+      <a
+        className="App-link"
+        href="https://www.google.se/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Google Something now!
+      </a>
+      <Footer />
     </div>
   );
 }
