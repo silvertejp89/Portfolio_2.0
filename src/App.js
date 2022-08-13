@@ -67,9 +67,23 @@ function App() {
       <Tech />
       <div className="portfolio-section">{mainProjects.map(createCard)}</div>
 
-      <div className="portfolio-section">{otherProjects.map(createOther)}</div>
+      {/* -----------------Other Projects--------------- */}
 
-      <div className="portfolio-section">{thoughts.map(createThought)}</div>
+      <div className="portfolio-section">
+        <div className="heading-container">
+          <h2>Other Projects</h2>
+        </div>
+        {otherProjects.map(createOther)}
+      </div>
+
+      {/* -----------------Thoughts section--------------- */}
+      <div className="portfolio-section">
+        <div class="heading-container">
+          <h2>My Thoughts about Code</h2>
+        </div>
+        {thoughts.map(createThought)}
+      </div>
+
       <Skills />
       <More />
       <Footer />

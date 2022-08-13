@@ -4,10 +4,6 @@ import '../style.css';
 function ThoughtCard(props) {
   return (
     <>
-      <div class="heading-container">
-        <h2>{props.title}</h2>
-      </div>
-
       <div className="grid-container">
         <article>
           <a
