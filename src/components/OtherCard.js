@@ -7,7 +7,7 @@ function createTag(tag) {
 
 function OtherCard(props) {
   return (
-    <div className="grid-container">
+    <div>
       {/* ------------------------------------------------- */}
       <article>
         <a

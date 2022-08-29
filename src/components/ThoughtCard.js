@@ -4,7 +4,7 @@ import '../style.css';
 function ThoughtCard(props) {
   return (
     <>
-      <div className="grid-container">
+      <div>
         <article>
           <a
             aria-label="Link to article"

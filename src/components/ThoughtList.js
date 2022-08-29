@@ -23,7 +23,7 @@ function ThoughtList() {
       <div class="heading-container">
         <h2>My Thoughts about Code</h2>
       </div>
-      {thoughts.map(createThought)}
+      <div className="grid-container">{thoughts.map(createThought)}</div>
     </div>
   );
 }

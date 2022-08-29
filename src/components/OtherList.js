@@ -24,7 +24,7 @@ function OtherList() {
       <div className="heading-container">
         <h2>Other Projects</h2>
       </div>
-      {otherProjects.map(createOther)}
+      <div className="container">{otherProjects.map(createOther)}</div>
     </div>
   );
 }

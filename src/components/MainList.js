@@ -24,7 +24,7 @@ function MainList() {
       <div className="heading-container">
         <h2>Featured Projects</h2>
       </div>
-      {mainProjects.map(createCard)}
+      <div className="grid-container"> {mainProjects.map(createCard)} </div>
     </div>
   );
 }
