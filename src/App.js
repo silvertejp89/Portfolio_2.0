@@ -1,14 +1,11 @@
-import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Presentation from './components/Presentation';
 import Tech from './components/Tech';
 import Skills from './components/Skills';
 import More from './components/More';
-// import Card from './components/Card';
-// import contacts from './assets/contacts';
-import ProjectCard from './components/ProjectCard';
-import mainProjects from './assets/mainProjects';
+
+import MainList from './components/MainList';
 
 import OtherCard from './components/OtherCard';
 import otherProjects from './assets/otherProjects';
@@ -16,20 +13,7 @@ import otherProjects from './assets/otherProjects';
 import ThoughtCard from './components/ThoughtCard';
 import thoughts from './assets/thoughts';
 
-function createCard(project) {
-  return (
-    <ProjectCard
-      key={project.id}
-      title={project.title}
-      image={project.image}
-      netlify={project.netlify}
-      heading={project.heading}
-      description={project.description}
-      github={project.github}
-      tools={project.tools}
-    />
-  );
-}
+import './App.css';
 
 function createOther(project) {
   return (
@@ -65,7 +49,9 @@ function App() {
       <Header />
       <Presentation />
       <Tech />
-      <div className="portfolio-section">{mainProjects.map(createCard)}</div>
+
+      {/* -----------------Main Projects--------------- */}
+      <MainList />
 
       {/* -----------------Other Projects--------------- */}
 

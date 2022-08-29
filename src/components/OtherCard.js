@@ -1,6 +1,10 @@
 import React from 'react';
 import '../style.css';
 
+function createTag(tag) {
+  return <span className="tag-span">{tag}</span>;
+}
+
 function OtherCard(props) {
   return (
     <div className="grid-container">
@@ -28,12 +32,7 @@ function OtherCard(props) {
         </div>
 
         <div className="tags">
-          <span className="tag-span">HTML5</span>
-          <span className="tag-span">CSS</span>
-          <span className="tag-span">JavaScript ES6</span>
-          <span className="tag-span">React</span>
-          <span className="tag-span">API</span>
-          <span className="tag-span">MongoDB</span>
+          <span>{props.tools.map(createTag)}</span>
         </div>
       </article>
     </div>

@@ -1,6 +1,10 @@
 import React from 'react';
 import '../style.css';
 
+function createTag(tag) {
+  return <span className="tag-span">{tag}</span>;
+}
+
 function ProjectCard(props) {
   return (
     <div className="grid-container">
@@ -39,7 +43,7 @@ function ProjectCard(props) {
         </div>
 
         <div className="tags">
-          <span className="tag-span">{props.tools.map(createTag)}</span>
+          <span>{props.tools.map(createTag)}</span>
         </div>
       </article>
     </div>
