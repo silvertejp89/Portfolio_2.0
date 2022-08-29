@@ -1,9 +1,8 @@
 import React from 'react';
-// import KrissLogo from './assets/KrissLogo.PNG';
 import '../style.css';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
-import stackoverflow from '../assets/stackoverflow.svg';
+// import stackoverflow from '../assets/stackoverflow.svg';
 
 function Header() {
   return (
@@ -23,7 +22,7 @@ function Header() {
         >
           <img className="logo" alt="Kriss GitHub link" src={github} />
         </a>
-        <a
+        {/* <a
           href="https://stackoverflow.com/c/technigo/users/276"
           target="_blank"
           rel="noopener noreferrer"
@@ -33,7 +32,7 @@ function Header() {
             alt="Kriss Stack Overflow link"
             src={stackoverflow}
           />
-        </a>
+        </a> */}
       </nav>
 
       <section className="header-text">
@@ -54,13 +53,3 @@ function Header() {
 }
 
 export default Header;
-
-// ----------------------first version------------------
-// function Header() {
-//   return (
-//     <header className="App-header">
-//       <h1>Welcome!</h1>
-//       <img src={KrissLogo} className="App-logo" alt="logo" />
-//     </header>
-//   );
-// }

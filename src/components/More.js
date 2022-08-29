@@ -2,7 +2,7 @@ import React from 'react';
 import '../style.css';
 import linked from '../assets/linked.svg';
 import git from '../assets/git.svg';
-import stack from '../assets/stack.svg';
+// import stack from '../assets/stack.svg';
 
 function More() {
   return (
@@ -36,7 +36,7 @@ function More() {
             <p className="logo-text">Github</p>
           </a>
         </div>
-        <div className="logo-links">
+        {/* <div className="logo-links">
           <a
             href="https://stackoverflow.com/c/technigo/users/276"
             target="_blank"
@@ -49,7 +49,7 @@ function More() {
             />
             <p className="logo-text">Stackoverflow</p>
           </a>
-        </div>
+        </div> */}
       </nav>
       <a
         href="https://www.krissstockhaus.com/"

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../style.css';
 
+//TODO: creating array and mapping instead?
+
 function Skills() {
   return (
     <section className="portfolio-section">
