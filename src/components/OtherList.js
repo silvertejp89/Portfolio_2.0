@@ -1,11 +1,11 @@
 import React from 'react';
 import '../style.css';
-import ProjectCard from './ProjectCard';
-import mainProjects from '../assets/data/mainProjects';
+import OtherCard from './OtherCard';
+import otherProjects from '../assets/data/otherProjects';
 
-function createCard(project) {
+function createOther(project) {
   return (
-    <ProjectCard
+    <OtherCard
       key={project.id}
       title={project.title}
       image={project.image}
@@ -18,15 +18,15 @@ function createCard(project) {
   );
 }
 
-function MainList() {
+function OtherList() {
   return (
     <div className="portfolio-section">
       <div className="heading-container">
-        <h2>Featured Projects</h2>
+        <h2>Other Projects</h2>
       </div>
-      {mainProjects.map(createCard)}
+      {otherProjects.map(createOther)}
     </div>
   );
 }
 
-export default MainList;
+export default OtherList;
