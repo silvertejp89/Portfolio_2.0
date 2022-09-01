@@ -2,7 +2,8 @@ import React from 'react';
 import '../style.css';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
-// import stackoverflow from '../assets/stackoverflow.svg';
+// import ill01 from '../assets/ill01.svg';
+import iPort from '../assets/iPort-01.svg';
 
 function Header() {
   return (
@@ -22,17 +23,13 @@ function Header() {
         >
           <img className="logo" alt="Kriss GitHub link" src={github} />
         </a>
-        {/* <a
-          href="https://stackoverflow.com/c/technigo/users/276"
+        <a
+          href="https://www.krissstockhaus.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            class="logo"
-            alt="Kriss Stack Overflow link"
-            src={stackoverflow}
-          />
-        </a> */}
+          <img class="logo" alt="Kriss Portfolio link" src={iPort} />
+        </a>
       </nav>
 
       <section className="header-text">

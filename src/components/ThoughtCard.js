@@ -30,7 +30,7 @@ function ThoughtCard(props) {
               rel="noopener noreferrer"
             >
               {' '}
-              <span>>></span>{' '}
+              <span className="colored-span">>></span>{' '}
             </a>
           </p>
         </article>

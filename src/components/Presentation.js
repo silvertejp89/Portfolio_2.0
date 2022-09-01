@@ -7,7 +7,7 @@ function Presentation() {
       <div className="container">
         <p className="intro-text">
           <img className="line-dot-icon" src={lineDot} alt="line and dot" />
-          Hello! I'm a front end developer with a passion code and usability! I
+          Hello! I'm a frontend developer with a passion code and usability! I
           Love to create products and user experiences that is easy to
           understand and fun to use. My background consists of many years of
           experience in information design such as technical information with
