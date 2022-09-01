@@ -42,7 +42,7 @@ function Header() {
 
       <img
         className="profile-image"
-        src="https://avatars.githubusercontent.com/u/80514864?v=4"
+        src="https://i.ibb.co/SxjFhKj/Kriss-Square-01.png"
         alt="Kriss"
       />
     </header>
