@@ -50,7 +50,7 @@ p {
 
   /* ----------------header:------------------ */
   .header-container {
-    background-image: url(./assets/header-sky.jpg);
+    background-image: url(./assets/header-sky-mirror.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -58,6 +58,10 @@ p {
     width: auto;
     color: var(--tertiary);
 }
+
+/* .flip-horizontally {
+    transform: scaleX(-1);
+  } */
 
 .header-text{
     position: absolute;
@@ -217,7 +221,7 @@ position: relative;
 .project-description {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .project-link{
@@ -243,7 +247,7 @@ position: relative;
 .tags {
     font-family: "Roboto", sans-serif;
     font-size: 11px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
     
 .tag-span {

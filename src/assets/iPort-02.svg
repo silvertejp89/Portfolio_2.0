@@ -6,7 +6,7 @@
 	 xml:space="preserve">
 <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#e7ae3b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="80.947" cy="80.544" r="76.834"/>
 <!-- <path fill="#F203E1" d="M120.689,37.607"/>
-<path fill="#F203E1" d="M107.608,43.313"/> -->
+<path fill="#F203E1" d="M107.608,43.313"/> --> 
 <g>
 	<path fill="#e7ae3b" d="M70.257,87.18c0,0,1.434-2.723,2.06-8.041c0.903-7.665,8.814-12.3,13.792-6.766
 		C92.709,79.712,84.303,86.765,70.257,87.18"/>

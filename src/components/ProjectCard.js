@@ -17,11 +17,7 @@ function ProjectCard(props) {
         >
           <div className="image-container">
             <div className="overlay"></div>
-            <img
-              className="image"
-              src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
-              alt="project"
-            />
+            <img className="image" src={props.image} alt="project" />
             <div aria-hidden="true" className="img-overlay">
               <p className="img-overlay-text">{props.title}</p>
             </div>
@@ -33,11 +29,7 @@ function ProjectCard(props) {
         {/* ------------------------------------------------ */}
         <p className="project-description"> {props.description} </p>
         <div className="link-github-project">
-          <a
-            href="https://github.com/silvertejp89/project-happy-thoughts"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
             <p class="github-link">View it on GitHub</p>
           </a>
         </div>
