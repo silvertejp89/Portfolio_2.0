@@ -8,18 +8,20 @@ import MainList from './components/MainList';
 import OtherList from './components/OtherList';
 import ThoughtList from './components/ThoughtList';
 
-const App = () => (
-  <div className="App">
-    <Header />
-    <Presentation />
-    <Tech />
-    <MainList />
-    <OtherList />
-    <ThoughtList />
-    <Skills />
-    <More />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Presentation />
+      <Tech />
+      <MainList />
+      <OtherList />
+      <ThoughtList />
+      <Skills />
+      <More />
+      <Footer />
+    </div>
+  );
+}
 export default App;
 

@@ -22,7 +22,7 @@ function OtherList() {
   return (
     <div className="portfolio-section">
       <div className="heading-container">
-        <h2>Other Projects</h2>
+        <h3>Other Projects</h3>
       </div>
       <div className="container">{otherProjects.map(createOther)}</div>
     </div>

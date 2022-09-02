@@ -1,33 +1,22 @@
 const otherProjects = [
   {
     id: 1,
-    title: 'Givers Game',
-    netlify: 'https://giversgame.netlify.app/',
-    heading: 'A todo-app with compassion',
-    description:
-      'An application that makes it easier to get help or help others with for example everyday tasks. Givers game is a todo-app that makes it possible to list tasks and distribute responsibilities. You create groups and invite members that wants to contribute.',
-    github: 'https://github.com/Mattsson717/kriss-patrik-final',
-    tools: ['React', 'Redux', 'Node', 'Mongoose', 'MongoDB'],
+    title: 'Survey',
+    netlify: 'https://dazzling-lovelace-b281db.netlify.app/',
+    heading: 'Survey',
+    description: 'Survey with controlled forms and summary of answers.',
+    github: 'https://github.com/silvertejp89/project-survey',
+    tools: ['HTML5', 'CSS', 'React', 'UseState', 'Controlled Forms'],
   },
   {
-    id: 1,
-    title: 'Givers Game',
-    netlify: 'https://giversgame.netlify.app/',
-    heading: 'A todo-app with compassion',
+    id: 2,
+    title: 'Weather App',
+    netlify: 'https://thebetterfoxes.netlify.app/',
+    heading: 'Weather App',
     description:
-      'An application that makes it easier to get help or help others with for example everyday tasks. Givers game is a todo-app that makes it possible to list tasks and distribute responsibilities. You create groups and invite members that wants to contribute.',
-    github: 'https://github.com/Mattsson717/kriss-patrik-final',
-    tools: ['React', 'Redux', 'Node', 'Mongoose', 'MongoDB'],
-  },
-  {
-    id: 1,
-    title: 'Givers Game',
-    netlify: 'https://giversgame.netlify.app/',
-    heading: 'A todo-app with compassion',
-    description:
-      'An application that makes it easier to get help or help others with for example everyday tasks. Givers game is a todo-app that makes it possible to list tasks and distribute responsibilities. You create groups and invite members that wants to contribute.',
-    github: 'https://github.com/Mattsson717/kriss-patrik-final',
-    tools: ['React', 'Redux', 'Node', 'Mongoose', 'MongoDB'],
+      'Simple weather dashboard that tells todays weather and temperature using a public weather API.',
+    github: 'https://github.com/silvertejp89/project-weather-app',
+    tools: ['HTML5', 'CSS', 'JavaScript ES6', 'Mob-programming'],
   },
 ];
 export default otherProjects;
