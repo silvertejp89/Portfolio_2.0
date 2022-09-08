@@ -4,7 +4,7 @@ import linked from '../assets/linked.svg';
 import git from '../assets/git.svg';
 import iPort2 from '../assets/iPort-02.svg';
 
-function More() {
+const More = () => {
   return (
     <section className="portfolio-section">
       <div className="heading-container">
@@ -62,6 +62,6 @@ function More() {
       </a> */}
     </section>
   );
-}
+};
 
 export default More;

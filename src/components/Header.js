@@ -5,7 +5,7 @@ import linkedin from '../assets/linkedin.svg';
 // import ill01 from '../assets/ill01.svg';
 import iPort from '../assets/iPort-01.svg';
 
-function Header() {
+const Header = () => {
   return (
     <header className="header-container">
       <nav className="navbar-links">
@@ -47,6 +47,6 @@ function Header() {
       />
     </header>
   );
-}
+};
 
 export default Header;

@@ -3,7 +3,7 @@ import '../style.css';
 
 //TODO: creating array and mapping instead?
 
-function Skills() {
+const Skills = () => {
   return (
     <section className="portfolio-section">
       <div className="heading-container">
@@ -41,6 +41,6 @@ function Skills() {
       </div>
     </section>
   );
-}
+};
 
 export default Skills;

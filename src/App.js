@@ -8,7 +8,7 @@ import MainList from './components/MainList';
 import OtherList from './components/OtherList';
 import ThoughtList from './components/ThoughtList';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
@@ -22,6 +22,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 export default App;
 

@@ -1,11 +1,12 @@
 import React from 'react';
 import '../style.css';
 
-function createTag(tag) {
-  return <span className="tag-span">{tag}</span>;
-}
+// create tag is moved and mapped in MainCard as anonymys arrow function)
+// function createTag(tag) {
+//   return <span className="tag-span">{tag}</span>;
+// }
 
-function ProjectCard(props) {
+const MainCard = (props) => {
   return (
     <div>
       {/* ------------------------------------------------- */}
@@ -35,11 +36,15 @@ function ProjectCard(props) {
         </div>
 
         <div className="tags">
-          <span>{props.tools.map(createTag)}</span>
+          <span>
+            {props.tools.map((tag) => (
+              <span className="tag-span">{tag}</span>
+            ))}
+          </span>
         </div>
       </article>
     </div>
   );
-}
+};
 
-export default ProjectCard;
+export default MainCard;

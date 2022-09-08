@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <h3 className="contact-head">contact</h3>
@@ -9,5 +9,5 @@ function Footer() {
       <p className="contact-email">kriss.stockhaus@gmail.com</p>
     </footer>
   );
-}
+};
 export default Footer;

@@ -1,7 +1,7 @@
 import React from 'react';
 import lineDot from '../assets/lineDot.png';
 
-function Presentation() {
+const Presentation = () => {
   return (
     <section className="intro-section">
       <div className="container">
@@ -26,6 +26,6 @@ function Presentation() {
       </a>
     </section>
   );
-}
+};
 
 export default Presentation;

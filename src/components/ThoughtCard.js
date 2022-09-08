@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css';
 
-function ThoughtCard(props) {
+const ThoughtCard = (props) => {
   return (
     <>
       <div>
@@ -37,6 +37,6 @@ function ThoughtCard(props) {
       </div>
     </>
   );
-}
+};
 
 export default ThoughtCard;
