@@ -400,8 +400,6 @@ ul {
     .container {
         width: 768px;
         margin: 0px, auto;
-        /* padding: 50px; */
-        /* should padding be only on the sides(and smaller)?  */
     }
 
     .grid-container {
@@ -454,4 +452,4 @@ ul {
     height: auto;
 }
 
-}
+};
