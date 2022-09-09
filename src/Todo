@@ -1,8 +1,5 @@
 <!-- 
-- Change functions to fat arrow functions.
-- cleanup svgs
+- Look into spacing between main projects and other projects, maybe create a css-class for every card instead of padding on tags. 
 - map skills-array
-- Look into spacing between main projects and other projects, 
-maybe create a css-class for every card instead of padding on tags. 
 
 -->

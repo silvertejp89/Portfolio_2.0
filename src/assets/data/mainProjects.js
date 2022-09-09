@@ -17,17 +17,17 @@ const mainProjects = [
       'Pair-programming',
     ],
   },
-  {
-    id: 2,
-    title: 'Happy Thoughts',
-    image: 'https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png',
-    netlify: 'https://kriss-happy-thoughts.netlify.app/',
-    heading: 'Post happy thpughts to an API',
-    description:
-      'My own positive version of twitter, built with HTML, CSS and connected to a database that I created',
-    github: 'https://github.com/silvertejp89/project-happy-thoughts',
-    tools: ['HTML5', 'CSS', 'JavaScript', 'React', 'API', 'MongoDB'],
-  },
+  // {
+  //   id: 2,
+  //   title: 'Happy Thoughts',
+  //   image: 'https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png',
+  //   netlify: 'https://kriss-happy-thoughts.netlify.app/',
+  //   heading: 'Post happy thpughts to an API',
+  //   description:
+  //     'My own positive version of twitter, built with HTML, CSS and connected to a database that I created',
+  //   github: 'https://github.com/silvertejp89/project-happy-thoughts',
+  //   tools: ['HTML5', 'CSS', 'JavaScript', 'React', 'API', 'MongoDB'],
+  // },
   {
     id: 3,
     title: 'Labyrinth',
@@ -49,7 +49,7 @@ const mainProjects = [
     id: 4,
     title: 'To Do',
     image: 'https://i.ibb.co/jJ0rs6z/Todos.png',
-    netlify: 'https://i.ibb.co/jJ0rs6z/Todos.png',
+    netlify: 'https://kriss-todo.netlify.app/',
     heading: 'Todo App',
     description:
       'A todo-application made with React Redux, were the user can list tasks and toggle whether a task is done or not.',
