@@ -4,7 +4,7 @@ import '../style.css';
 const ThoughtCard = (props) => {
   return (
     <>
-      <div>
+      <div className="thoughtCard">
         <article>
           <a
             aria-label="Link to article"

@@ -8,7 +8,7 @@ import '../style.css';
 
 const MainCard = (props) => {
   return (
-    <div>
+    <div className="mainCard">
       {/* ------------------------------------------------- */}
       <article>
         <a
