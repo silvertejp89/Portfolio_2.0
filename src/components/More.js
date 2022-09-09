@@ -51,15 +51,6 @@ const More = () => {
           </a>
         </div>
       </nav>
-      {/* <a
-        href="https://www.krissstockhaus.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p class="illustration-link">
-          Curious about my illustrations? Check them out here!
-        </p>
-      </a> */}
     </section>
   );
 };
