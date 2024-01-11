@@ -1,9 +1,9 @@
-import React from 'react';
-import '../style.css';
-import github from '../assets/github.svg';
-import linkedin from '../assets/linkedin.svg';
+import React from "react";
+import "../style.css";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
 // import ill01 from '../assets/ill01.svg';
-import iPort from '../assets/iPort-01.svg';
+import iPort from "../assets/iPort-01.svg";
 
 const Header = () => {
   return (
@@ -36,7 +36,7 @@ const Header = () => {
         <p className="portfolio-name">
           Portfolio: <span class="header-span">Kriss Stockhaus</span>
         </p>
-        <h1 className="frontend-developer">frontend developer</h1>
+        <h1 className="frontend-developer">Developer</h1>
         <h1 className="information-designer">+ information designer</h1>
       </section>
 

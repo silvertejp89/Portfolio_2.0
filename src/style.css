@@ -50,8 +50,8 @@ p {
 
   /* ----------------header:------------------ */
   .header-container {
-    /* background-image: url(./assets/header-sky-mirror.jpg); */
-    background-image: url(assets/amandine-bataille-MGgeYhRYLMw-unsplash.jpg);
+    background-image: url(./assets/header-sky-mirror.jpg);
+    /* background-image: url(assets/amandine-bataille-MGgeYhRYLMw-unsplash.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
