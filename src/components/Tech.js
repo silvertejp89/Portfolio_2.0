@@ -1,5 +1,5 @@
-import React from 'react';
-import '../style.css';
+import React from "react";
+import "../style.css";
 
 const Tech = () => {
   return (
@@ -8,9 +8,8 @@ const Tech = () => {
         <div className="heading-container">
           <h2>Tech</h2>
         </div>
-
         <p className="tech-text">
-          HTML, CSS, Flexbox, Grid, JavaScript, ES6, Node.js, Web Accessibly,
+          HTML, CSS, Flexbox, Grid, JavaScript, ES6, Node.js, Web Accessibility,
           API:s, mob-programming, pair-programming, Github
         </p>
       </div>

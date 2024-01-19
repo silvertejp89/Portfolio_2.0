@@ -1,5 +1,5 @@
-import React from 'react';
-import '../style.css';
+import React from "react";
+import "../style.css";
 
 //TODO: creating array and mapping instead?
 
@@ -14,13 +14,15 @@ const Skills = () => {
           <ul className="code-skills">
             <li className="list-head">Code</li>
             <li>HTML</li>
-            <li>CSS</li>
+            <li>CSS & SCSS</li>
             <li>JavaScript ES6</li>
+            <li>TypeScript</li>
             <li>React</li>
-            <li>Styled Components</li>
+            {/* '            <li>Styled Components</li>' */}
             <li>Github</li>
             <li>Redux</li>
             <li>Node.js</li>
+            <li>SQL</li>
           </ul>
           <ul className="toolbox-skills">
             <li className="list-head">Toolbox</li>
@@ -31,9 +33,11 @@ const Skills = () => {
             <li>IsoDraw</li>
             <li>Figma</li>
             <li>Slack</li>
+            <li>Visual Studio Code</li>
           </ul>
           <ul className="upcoming-skills">
             <li className="list-head">Upcoming</li>
+            <li>PHP</li>
             <li>Bootstrap</li>
             <li>jQuery</li>
           </ul>

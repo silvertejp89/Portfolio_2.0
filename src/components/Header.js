@@ -6,6 +6,12 @@ import linkedin from "../assets/linkedin.svg";
 import iPort from "../assets/iPort-01.svg";
 
 const Header = () => {
+  const handleSymbolClick = () => {
+    alert(
+      "Hello! Unfortunately my illustration portfolio site is currently moving, please try another time!"
+    );
+  };
+
   return (
     <header className="header-container">
       <nav className="navbar-links">
@@ -23,20 +29,16 @@ const Header = () => {
         >
           <img className="logo" alt="Kriss GitHub link" src={github} />
         </a>
-        <a
-          href="https://www.krissstockhaus.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <span className="logo" onClick={handleSymbolClick}>
           <img class="logo" alt="Kriss Portfolio link" src={iPort} />
-        </a>
+        </span>
       </nav>
 
       <section className="header-text">
         <p className="portfolio-name">
           Portfolio: <span class="header-span">Kriss Stockhaus</span>
         </p>
-        <h1 className="frontend-developer">Developer</h1>
+        <h1 className="frontend-developer">Web Developer</h1>
         <h1 className="information-designer">+ information designer</h1>
       </section>
 

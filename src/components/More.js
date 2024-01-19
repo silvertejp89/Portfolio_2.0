@@ -1,10 +1,16 @@
-import React from 'react';
-import '../style.css';
-import linked from '../assets/linked.svg';
-import git from '../assets/git.svg';
-import iPort2 from '../assets/iPort-02.svg';
+import React from "react";
+import "../style.css";
+import linked from "../assets/linked.svg";
+import git from "../assets/git.svg";
+import iPort2 from "../assets/iPort-02.svg";
 
 const More = () => {
+  const handleSymbolClick = () => {
+    alert(
+      "Hello! Unfortunately my illustration portfolio site is currently moving, please try another time!"
+    );
+  };
+
   return (
     <section className="portfolio-section">
       <div className="heading-container">
@@ -37,18 +43,14 @@ const More = () => {
           </a>
         </div>
         <div className="logo-links">
-          <a
-            href="https://www.krissstockhaus.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <span onClick={handleSymbolClick}>
             <img
               className="logo-image"
               alt="Kriss illustrations portfolio link"
               src={iPort2}
             />
             <p className="logo-text">Illustrations</p>
-          </a>
+          </span>
         </div>
       </nav>
     </section>

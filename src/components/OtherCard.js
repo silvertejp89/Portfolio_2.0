@@ -1,5 +1,5 @@
-import React from 'react';
-import '../style.css';
+import React from "react";
+import "../style.css";
 
 // create tag is moved and mapped in MainCard as anonymys arrow function)
 // function createTag(tag) {
@@ -12,7 +12,7 @@ const OtherCard = (props) => {
       {/* ------------------------------------------------- */}
       <article>
         <a
-          aria-label="Link to Happy Thoughts"
+          aria-label="Link to project"
           class="project-link"
           href={props.netlify}
         >
@@ -23,11 +23,7 @@ const OtherCard = (props) => {
         {/* ------------------------------------------------ */}
         <p className="project-description"> {props.description} </p>
         <div className="link-github-project">
-          <a
-            href="https://github.com/silvertejp89/project-happy-thoughts"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
             <p class="github-link">View it on GitHub</p>
           </a>
         </div>
