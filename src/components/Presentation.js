@@ -17,10 +17,11 @@ const Presentation = () => {
           problem-solving. With a genuine fascination for usability, my journey
           commenced in information design, where I refined my ability to
           translate intricate technical details into clear and informative
-          illustrations. Venturing into the world of coding has proven to be one
-          of my most rewarding decisions, and my foremost goal is to perpetually
-          embrace learning and growth."
+          illustrations. Key competence: Javascript, React, Redux & Illustrator.
         </p>
+        {/* Venturing into the world of coding has proven to be one
+          of my most rewarding decisions, and my foremost goal is to perpetually
+          embrace learning and growth." */}
       </div>
       {/* <a
         href="https://www.krissstockhaus.com/"
