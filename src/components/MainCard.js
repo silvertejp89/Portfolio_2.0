@@ -13,7 +13,7 @@ const MainCard = (props) => {
       <article>
         <a
           aria-label="Link to project"
-          class="project-link"
+          className="project-link"
           href={props.netlify}
         >
           <div className="image-container">
@@ -31,7 +31,7 @@ const MainCard = (props) => {
         <p className="project-description"> {props.description} </p>
         <div className="link-github-project">
           <a href={props.github} target="_blank" rel="noopener noreferrer">
-            <p class="github-link">View it on GitHub</p>
+            <p className="github-link">View it on GitHub</p>
           </a>
         </div>
 
