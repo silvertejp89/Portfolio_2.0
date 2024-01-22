@@ -8,7 +8,7 @@ const mainProjects = [
     description:
       "A tiny app that fetches the latest time and automatically updates it every second. A good repetition of the useState-hook and destructuring arrays.",
     github: "https://github.com/silvertejp89/project-real-time-clock",
-    tools: ["React", "Props", "Reusable Components", "Github"],
+    tools: ["React", "Props", "Reusable Components", "Github", "Responsive"],
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ const mainProjects = [
     tools: [
       "API",
       "Redux",
-      "Reusable components",
+      "Reusable Components",
       "JavaScript",
       "Pair-programming",
     ],
