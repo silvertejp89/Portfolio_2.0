@@ -4,7 +4,7 @@ const mainProjects = [
     title: "Givers Game",
     image: "https://i.ibb.co/ZYjf29h/giversgame-07.png",
     netlify: "https://giversgame.netlify.app/",
-    heading: "A todo-app with compassion",
+    heading: "A TODO-APP WITH COMPASSION (under reconstruction)",
     description:
       "An application that makes it easier to get help or help others with for example everyday tasks. Givers game is a todo-app that makes it possible to list tasks and distribute responsibilities. You create groups and invite members that wants to contribute.",
     github: "https://github.com/Mattsson717/kriss-patrik-final",
@@ -17,23 +17,23 @@ const mainProjects = [
       "Pair-programming",
     ],
   },
-  // {
-  //   id: 2,
-  //   title: 'Happy Thoughts',
-  //   image: 'https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png',
-  //   netlify: 'https://kriss-happy-thoughts.netlify.app/',
-  //   heading: 'Post happy thpughts to an API',
-  //   description:
-  //     'My own positive version of twitter, built with HTML, CSS and connected to a database that I created',
-  //   github: 'https://github.com/silvertejp89/project-happy-thoughts',
-  //   tools: ['HTML5', 'CSS', 'JavaScript', 'React', 'API', 'MongoDB'],
-  // },
+  {
+    id: 2,
+    title: "Happy Thoughts",
+    image: "https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png",
+    netlify: "https://kriss-happy-thoughts.netlify.app/",
+    heading: "POST HAPPY THOUGHTS TO AN API (under reconstruction)",
+    description:
+      "My own positive version of twitter, built with HTML, CSS and connected to a database that I created.",
+    github: "https://github.com/silvertejp89/project-happy-thoughts",
+    tools: ["HTML5", "CSS", "JavaScript", "React", "API", "MongoDB"],
+  },
   {
     id: 3,
     title: "Labyrinth",
     image: "https://i.ibb.co/n6cmXZQ/Labyrinth.png",
     netlify: "https://theevenmoreabsolutebestfoxes.netlify.app/",
-    heading: "Labyrinth API",
+    heading: "LABYRINTH API (under reconstruction)",
     description:
       "Navigate a maze, in the form of a text-based adventure, provided by a backend",
     github: "https://github.com/silvertejp89/project-labyrinth",
@@ -50,7 +50,7 @@ const mainProjects = [
     title: "To Do",
     image: "https://i.ibb.co/jJ0rs6z/Todos.png",
     netlify: "https://kriss-todo.netlify.app/",
-    heading: "Todo App",
+    heading: "TODO APP",
     description:
       "A todo-application made with React Redux, were the user can list tasks and toggle whether a task is done or not.",
     github: "https://github.com/silvertejp89/project-todos",
@@ -61,7 +61,7 @@ const mainProjects = [
     title: "Quiz",
     image: "https://i.ibb.co/xgYhYHV/Quiz.png",
     netlify: "https://common-knowledge.netlify.app/",
-    heading: "Quiz about random facts",
+    heading: "QUIZ ABOUT RANDOM FACTS",
     description:
       "A multiple choice quiz about whacky facts, created with React Redux and mob-programming.",
     github: "https://github.com/silvertejp89/Redux-Quiz",
@@ -72,7 +72,7 @@ const mainProjects = [
     title: "Movies",
     image: "https://i.ibb.co/XtfBYm0/willy-Wonka.png",
     netlify: "https://movie-project-kriss-a1eksa.netlify.app/",
-    heading: "A Site about Movies",
+    heading: "A SITE ABOUT MOVIES",
     description:
       "Our movie site, a multi-page application fetching and displaying movies and details from an API.",
     github:
@@ -84,7 +84,7 @@ const mainProjects = [
     title: "Github Tracker",
     image: "https://i.ibb.co/xYS9DLY/Github-Tracker.png",
     netlify: "https://kriss-github-tracker.netlify.app/",
-    heading: "My own Github Tracker",
+    heading: "MY OWN GITHUB TRACKER",
     description:
       "Responsive web site keeping track of some of my GitHub repositorys, using endpoints from the GitHub API.",
     github: "https://github.com/silvertejp89/project-github-tracker",

@@ -15,6 +15,8 @@ const OtherCard = (props) => {
           aria-label="Link to project"
           class="project-link"
           href={props.netlify}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <div className="project-texts">
             <h4> {props.heading} </h4>

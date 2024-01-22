@@ -15,6 +15,8 @@ const MainCard = (props) => {
           aria-label="Link to project"
           className="project-link"
           href={props.netlify}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <div className="image-container">
             <div className="overlay"></div>

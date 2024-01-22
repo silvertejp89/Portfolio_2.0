@@ -39,7 +39,7 @@ h3 {
 h4 {
   font-family: "Roboto", sans-serif;
   color: var(--secondary);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
   margin: 15px 0px;
 }
