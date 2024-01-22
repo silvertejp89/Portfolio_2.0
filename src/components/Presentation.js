@@ -15,9 +15,9 @@ const Presentation = () => {
           Illustrator. */}
           "Hello! I'm a web developer who delights in the art of coding and
           problem-solving. With a genuine fascination for usability, my journey
-          commenced in information design, where I refined my ability to
-          translate intricate technical details into clear and informative
-          illustrations. Key competence: Javascript, React, Redux & Illustrator.
+          commenced in information design and illustration, took a detour
+          through UX design, and now I've immersed myself in coding,
+          appreciating both frontend and backend development.
         </p>
         {/* Venturing into the world of coding has proven to be one
           of my most rewarding decisions, and my foremost goal is to perpetually
