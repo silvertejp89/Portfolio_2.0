@@ -1,6 +1,28 @@
 const mainProjects = [
   {
     id: 1,
+    title: "Emojipedia",
+    image: "https://i.ibb.co/h1K0xGt/emojipedia.png",
+    netlify: "https://kriss-real-time-clock.netlify.app/",
+    heading: "A LITTLE CLOCK EXERCISE",
+    description:
+      "A tiny app that fetches the latest time and automatically updates it every second. A good repetition of the useState-hook and destructuring arrays.",
+    github: "https://github.com/silvertejp89/project-real-time-clock",
+    tools: ["React", "Props", "Reusable Components", "Github"],
+  },
+  {
+    id: 2,
+    title: "Get Time",
+    image: "https://i.ibb.co/LtmXNKG/getTime3.png",
+    netlify: "https://kriss-real-time-clock.netlify.app/",
+    heading: "A LITTLE CLOCK EXERCISE",
+    description:
+      "A tiny app that fetches the latest time and automatically updates it every second. A good repetition of the useState-hook and destructuring arrays.",
+    github: "https://github.com/silvertejp89/project-real-time-clock",
+    tools: ["React", "React Hooks", "Javascript", "Arrays", "Github"],
+  },
+  {
+    id: 3,
     title: "Givers Game",
     image: "https://i.ibb.co/ZYjf29h/giversgame-07.png",
     netlify: "https://giversgame.netlify.app/",
@@ -18,7 +40,19 @@ const mainProjects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
+    title: "Movies",
+    image: "https://i.ibb.co/XtfBYm0/willy-Wonka.png",
+    netlify: "https://movie-project-kriss-a1eksa.netlify.app/",
+    heading: "A SITE ABOUT MOVIES",
+    description:
+      "Our movie site, a multi-page application fetching and displaying movies and details from an API.",
+    github:
+      "https://github.com/silvertejp89/project-movies/tree/master/code/src",
+    tools: ["React", "API", "React Hooks", "React Router", "Pair-programming"],
+  },
+  {
+    id: 5,
     title: "Happy Thoughts",
     image: "https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png",
     netlify: "https://kriss-happy-thoughts.netlify.app/",
@@ -29,7 +63,7 @@ const mainProjects = [
     tools: ["HTML5", "CSS", "JavaScript", "React", "API", "MongoDB"],
   },
   {
-    id: 3,
+    id: 6,
     title: "Labyrinth",
     image: "https://i.ibb.co/n6cmXZQ/Labyrinth.png",
     netlify: "https://theevenmoreabsolutebestfoxes.netlify.app/",
@@ -46,7 +80,7 @@ const mainProjects = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     title: "To Do",
     image: "https://i.ibb.co/jJ0rs6z/Todos.png",
     netlify: "https://kriss-todo.netlify.app/",
@@ -57,7 +91,7 @@ const mainProjects = [
     tools: ["React", "Redux-toolkit", "CSS"],
   },
   {
-    id: 5,
+    id: 8,
     title: "Quiz",
     image: "https://i.ibb.co/xgYhYHV/Quiz.png",
     netlify: "https://common-knowledge.netlify.app/",
@@ -66,29 +100,6 @@ const mainProjects = [
       "A multiple choice quiz about whacky facts, created with React Redux and mob-programming.",
     github: "https://github.com/silvertejp89/Redux-Quiz",
     tools: ["React", "Redux", "React Hooks", "Mob-programming"],
-  },
-  {
-    id: 6,
-    title: "Movies",
-    image: "https://i.ibb.co/XtfBYm0/willy-Wonka.png",
-    netlify: "https://movie-project-kriss-a1eksa.netlify.app/",
-    heading: "A SITE ABOUT MOVIES",
-    description:
-      "Our movie site, a multi-page application fetching and displaying movies and details from an API.",
-    github:
-      "https://github.com/silvertejp89/project-movies/tree/master/code/src",
-    tools: ["React", "API", "React Hooks", "React Router", "Pair-programming"],
-  },
-  {
-    id: 7,
-    title: "Github Tracker",
-    image: "https://i.ibb.co/xYS9DLY/Github-Tracker.png",
-    netlify: "https://kriss-github-tracker.netlify.app/",
-    heading: "MY OWN GITHUB TRACKER",
-    description:
-      "Responsive web site keeping track of some of my GitHub repositorys, using endpoints from the GitHub API.",
-    github: "https://github.com/silvertejp89/project-github-tracker",
-    tools: ["HTML5", "CSS", "JavaScript ES6", "Node.js", "API"],
   },
 ];
 
