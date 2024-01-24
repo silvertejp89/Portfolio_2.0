@@ -1,12 +1,12 @@
-import React from 'react';
-import '../style.css';
+import React from "react";
+import "../style.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <h3 className="contact-head">contact</h3>
       {/* <p className="contact-name">Kriss Stockhaus</p> */}
-      <p className="contact-email">kriss.stockhaus@gmail.com</p>
+      <p className="contact-email">kriss.stockhaus@medieinstitutet.se</p>
     </footer>
   );
 };
