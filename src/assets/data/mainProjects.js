@@ -4,9 +4,9 @@ const mainProjects = [
     title: "Emojipedia",
     image: "https://i.ibb.co/h1K0xGt/emojipedia.png",
     netlify: "https://kriss-emojipedia.netlify.app",
-    heading: "MAAPPING EMOJIS",
+    heading: "MAPPING EMOJIS",
     description:
-      "This is an exercise foccusing on mapping components in react, creating a site that explain the meanings of some emojis.",
+      "A small exercise focusing on mapping components in react, creating a site that explain the meanings of some emojis.",
     github: "https://github.com/silvertejp89/emojipedia",
     tools: ["React", "Props", "Reusable Components", "Github", "Responsive"],
   },
