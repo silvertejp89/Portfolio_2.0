@@ -3,11 +3,11 @@ const mainProjects = [
     id: 1,
     title: "Emojipedia",
     image: "https://i.ibb.co/h1K0xGt/emojipedia.png",
-    netlify: "https://kriss-real-time-clock.netlify.app/",
-    heading: "A LITTLE CLOCK EXERCISE",
+    netlify: "https://kriss-emojipedia.netlify.app",
+    heading: "MAAPPING EMOJIS",
     description:
-      "A tiny app that fetches the latest time and automatically updates it every second. A good repetition of the useState-hook and destructuring arrays.",
-    github: "https://github.com/silvertejp89/project-real-time-clock",
+      "This is an exercise foccusing on mapping components in react, creating a site that explain the meanings of some emojis.",
+    github: "https://github.com/silvertejp89/emojipedia",
     tools: ["React", "Props", "Reusable Components", "Github", "Responsive"],
   },
   {
