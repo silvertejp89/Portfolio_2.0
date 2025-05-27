@@ -1,6 +1,16 @@
 const mainProjects = [
   {
     id: 1,
+    title: "Todo App",
+    image: "https://i.ibb.co/ng7j1Dk/todo.png",
+    netlify: "https://todomedi.netlify.app/",
+    heading: "Todo App",
+    description: "Todo",
+    github: "https://github.com/silvertejp89/TodoMedi",
+    tools: ["Javascript"],
+  },
+  {
+    id: 2,
     title: "Emojipedia",
     image: "https://i.ibb.co/h1K0xGt/emojipedia.png",
     netlify: "https://kriss-emojipedia.netlify.app",
@@ -11,7 +21,7 @@ const mainProjects = [
     tools: ["React", "Props", "Reusable Components", "Github", "Responsive"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Get Time",
     image: "https://i.ibb.co/LtmXNKG/getTime3.png",
     netlify: "https://kriss-real-time-clock.netlify.app/",
@@ -22,7 +32,7 @@ const mainProjects = [
     tools: ["React", "React Hooks", "Javascript", "Arrays", "Github"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Givers Game",
     image: "https://i.ibb.co/ZYjf29h/giversgame-07.png",
     netlify: "https://giversgame.netlify.app/",
@@ -40,7 +50,7 @@ const mainProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Movies",
     image: "https://i.ibb.co/XtfBYm0/willy-Wonka.png",
     netlify: "https://movie-project-kriss-a1eksa.netlify.app/",
@@ -52,7 +62,7 @@ const mainProjects = [
     tools: ["React", "API", "React Hooks", "React Router", "Pair-programming"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Happy Thoughts",
     image: "https://i.ibb.co/jJ9pk5d/Happy-Thoughts.png",
     netlify: "https://kriss-happy-thoughts.netlify.app/",
@@ -63,7 +73,7 @@ const mainProjects = [
     tools: ["HTML5", "CSS", "JavaScript", "React", "API", "MongoDB"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Labyrinth",
     image: "https://i.ibb.co/n6cmXZQ/Labyrinth.png",
     netlify: "https://theevenmoreabsolutebestfoxes.netlify.app/",
@@ -80,7 +90,7 @@ const mainProjects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "To Do",
     image: "https://i.ibb.co/jJ0rs6z/Todos.png",
     netlify: "https://kriss-todo.netlify.app/",
@@ -91,7 +101,7 @@ const mainProjects = [
     tools: ["React", "Redux-toolkit", "CSS"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Quiz",
     image: "https://i.ibb.co/xgYhYHV/Quiz.png",
     netlify: "https://common-knowledge.netlify.app/",

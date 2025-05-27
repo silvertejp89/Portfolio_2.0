@@ -46,7 +46,7 @@ const Header = () => {
 
       <img
         className="profile-image"
-        src="https://i.ibb.co/SxjFhKj/Kriss-Square-01.png"
+        src="https://i.ibb.co/tzSQWy7/Kriss.jpg"
         alt="Kriss"
       />
     </header>
