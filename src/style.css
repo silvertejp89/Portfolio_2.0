@@ -156,9 +156,29 @@ a {
   padding: 49px 24px 43px;
 }
 
-/* .tech-text {
-    padding: 50px;
-} */
+.tech-text {
+  display: grid;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1rem;
+  line-height: 1.7;
+}
+
+.tech-text p {
+  margin: 0;
+  font-size: 17px;
+}
+
+.tech-text strong {
+  color: var(--secondary);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  font-size: 15px;
+}
 
 /* -----------projects section---------- */
 
@@ -199,6 +219,18 @@ a {
 
 .image-container {
   position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Proportionen – byt till 4 / 3 om du vill ha mer höjd */
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* width: 100%;
+  display: block; */
 }
 
 .overlay {
@@ -222,11 +254,6 @@ a {
   left: 25%;
   right: 25%;
   font-family: "Montserrat", sans-serif;
-}
-
-.image {
-  width: 100%;
-  display: block;
 }
 
 .overlay:hover {
@@ -270,6 +297,8 @@ a {
   width: fit-content;
   font-weight: 300;
   padding: 4px;
+  border-radius: 3px; /* för rundade hörn */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 /* ------------------My thoughts------------------- */

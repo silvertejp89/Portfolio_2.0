@@ -8,10 +8,30 @@ const Tech = () => {
         <div className="heading-container">
           <h2>Tech</h2>
         </div>
-        <p className="tech-text">
-          HTML, CSS, Flexbox, Grid, JavaScript, ES6, Node.js, Web Accessibility,
-          API:s, mob-programming, pair-programming, Github
-        </p>
+        <div className="tech-text">
+          <p>
+            <strong>Frontend</strong>
+            HTML5, CSS3, SASS, JavaScript (ES6+), React, Axios, Fetch, WordPress
+            (incl. Elementor), Figma, Responsive design
+          </p>
+          <p>
+            <strong>Backend</strong>
+            Node.js, Express, PHP, JWT (Authentication), REST API handling
+          </p>
+          <p>
+            <strong>Databases</strong>
+            MySQL, phpMyAdmin, Relational database design, CRUD operations
+          </p>
+          <p>
+            <strong>Tools & Deployment</strong>
+            Git, GitHub, Docker, Netlify, Vercel, Trello, GitHub Projects
+          </p>
+          <p>
+            <strong>Other</strong>
+            UX design with accessibility focus, Agile workflows, Team
+            collaboration using branches & pull requests
+          </p>
+        </div>
       </div>
     </section>
   );

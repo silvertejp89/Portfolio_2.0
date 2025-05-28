@@ -5,7 +5,7 @@ const mainProjects = [
     image: "https://i.ibb.co/ng7j1Dk/todo.png",
     netlify: "https://todomedi.netlify.app/",
     heading: "Todo App",
-    description: "Todo",
+    description: "A simple task manager with sorting and delete functionality.",
     github: "https://github.com/silvertejp89/TodoMedi",
     tools: ["Javascript"],
   },

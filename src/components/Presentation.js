@@ -13,7 +13,7 @@ const Presentation = () => {
           experience in information design such as technical information with
           focus on illustration. Key competence: Javascript, React, Redux &
           Illustrator. */}
-          "Hello! I'm a web developer who delights in the art of coding and
+          Hello! I'm a web developer who delights in the art of coding and
           problem-solving. With a genuine fascination for usability, my journey
           commenced in information design and illustration, a course in UX
           design turned out to serve as a bridge to programming, and now I've
