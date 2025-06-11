@@ -15,8 +15,7 @@ const Presentation = () => {
           Illustrator. */}
           Hello! I'm a web developer who delights in the art of coding and
           problem-solving. With a genuine fascination for usability, my journey
-          commenced in information design and illustration, a course in UX
-          design turned out to serve as a bridge to programming, and now I've
+          commenced in information design and illustration, and now I've
           immersed myself in coding, appreciating both frontend and backend
           development!
         </p>
