@@ -10,6 +10,16 @@ const Tech = () => {
         </div>
         <div className="tech-text">
           <p>
+            <strong>Security & Cloud (ongoing studies)</strong>
+          </p>
+          <ul>
+            <li>Risk analysis & information classification</li>
+            <li>Security principles and secure system design</li>
+            <li>Incident response and resilience concepts (RTO/RPO)</li>
+            <li>Fundamentals of cloud security and shared responsibility</li>
+            <li>Governance and security frameworks</li>
+          </ul>
+          <p>
             <strong>Frontend</strong>
             HTML5, CSS3, SASS, JavaScript (ES6+), React, Axios, Fetch, WordPress
             (incl. Elementor), Figma, Responsive design
