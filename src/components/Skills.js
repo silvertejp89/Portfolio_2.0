@@ -11,13 +11,14 @@ const Skills = () => {
       </div>
       <div className="container">
         <div className="skill-list">
-          <ul className="code-skills">
-            {/* <li className="list-head">Code</li> */}
-            <li>UX & UI with accessibility focus</li>
-            <li>Agile workflows & team collaboration</li>
-            <li>Clear communication & structured thinking</li>
-            <li>Visual storytelling & fact-based design</li>
+          <ul className="toolbox-skills">
+            <li className="list-head">Toolbox</li>
             <li>Maintainable code & continuous learning</li>
+            <li>Clear communication & structured thinking</li>
+          </ul>
+          <ul className="upcoming-skills">
+            <li>Agile workflows & team collaboration</li>
+            <li>UX & UI with accessibility focus</li>
           </ul>
         </div>
       </div>

@@ -8,7 +8,7 @@ import iPort from "../assets/iPort-01.svg";
 const Header = () => {
   const handleSymbolClick = () => {
     alert(
-      "Hello! Unfortunately my illustration portfolio site is currently moving, please try another time!"
+      "Hello! Unfortunately my illustration portfolio site is currently moving, please try another time!",
     );
   };
 
@@ -41,7 +41,7 @@ const Header = () => {
           Portfolio: <span className="header-span">Kriss Stockhaus</span>
         </p>
         <h1 className="frontend-developer">Web Developer</h1>
-        <h1 className="information-designer">+ information designer</h1>
+        <h1 className="information-designer">Cybersecurity Student</h1>
       </section>
 
       <img

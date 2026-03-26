@@ -13,11 +13,18 @@ const Presentation = () => {
           experience in information design such as technical information with
           focus on illustration. Key competence: Javascript, React, Redux &
           Illustrator. */}
-          Hello! I'm a web developer who delights in the art of coding and
+          {/* Hello! I'm a web developer who delights in the art of coding and
           problem-solving. With a genuine fascination for usability, my journey
           commenced in information design and illustration, and now I've
           immersed myself in coding, appreciating both frontend and backend
-          development!
+          development! */}
+          Hello! I'm a web developer with a background in information design and
+          illustration. Over the years, I’ve moved fully into coding – working
+          with both frontend and backend development. I’m currently studying
+          Cybersecurity, with a growing interest in secure system design and
+          cloud security. My goal is to combine development experience with a
+          strong security mindset and build systems that are robust,
+          well-structured and resilient over time.
         </p>
         {/* Venturing into the world of coding has proven to be one
           of my most rewarding decisions, and my foremost goal is to perpetually
