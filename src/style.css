@@ -365,8 +365,8 @@ ul {
   font-size: 17px;
   line-height: 29px;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   padding-bottom: 50px;
 }
 
