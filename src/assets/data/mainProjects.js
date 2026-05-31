@@ -37,7 +37,7 @@ const mainProjects = [
   {
     id: 12,
     title: "Cybersecurity Learning Quest",
-    image: "https://ibb.co/q3py7KHb",
+    image: "https://i.ibb.co/DHQVzhB3/Screenshot-2026-05-31-234335.png",
     netlify: "null",
     heading: "A GAMIFIED KNOWLEDGE JOURNEY",
     description:
