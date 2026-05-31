@@ -31,11 +31,13 @@ const MainCard = (props) => {
         </a>
         {/* ------------------------------------------------ */}
         <p className="project-description"> {props.description} </p>
-        <div className="link-github-project">
-          <a href={props.github} target="_blank" rel="noopener noreferrer">
-            <p className="github-link">View it on GitHub</p>
-          </a>
-        </div>
+        {props.github && (
+          <div className="link-github-project">
+            <a href={props.github} target="_blank" rel="noopener noreferrer">
+              <p className="github-link">View it on GitHub</p>
+            </a>
+          </div>
+        )}
 
         <div className="tags">
           <span>
