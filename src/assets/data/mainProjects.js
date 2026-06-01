@@ -38,11 +38,11 @@ const mainProjects = [
     id: 12,
     title: "Cybersecurity Learning Quest",
     image: "https://i.ibb.co/DHQVzhB3/Screenshot-2026-05-31-234335.png",
-    netlify: "null",
+    netlify: null,
     heading: "A GAMIFIED KNOWLEDGE JOURNEY",
     description:
       "An experimental project exploring how visual progression, milestones and gamification can be used to structure and explore cybersecurity and privacy concepts.",
-    github: "null",
+    github: null,
     tools: [
       "Cybersecurity",
       "Gamification",
