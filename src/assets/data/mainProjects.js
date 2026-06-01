@@ -2,7 +2,7 @@ const mainProjects = [
   {
     id: 10,
     title: "SoulCaller",
-    image: "",
+    image: "https://i.ibb.co/4wp7fKT4/Sk-rmavbild-2025-04-29-kl-15-20-07.png",
     netlify: "null",
     heading: "A COMMUNITY DRIVEN CARD GAME",
     description:
