@@ -3,11 +3,11 @@ const mainProjects = [
     id: 10,
     title: "SoulCaller",
     image: "https://i.ibb.co/4wp7fKT4/Sk-rmavbild-2025-04-29-kl-15-20-07.png",
-    netlify: "null",
+    netlify: null,
     heading: "A COMMUNITY DRIVEN CARD GAME",
     description:
       "A digital card game where players design their own cards through a balanced point-based system. The project combines game design, AI-generated artwork, cloud infrastructure and custom content creation tools to enable creative freedom while maintaining gameplay balance.",
-    github: "null",
+    github: null,
     tools: [
       "Google Cloud",
       "Cloud Infrastructure",
@@ -21,11 +21,11 @@ const mainProjects = [
     id: 11,
     title: "Family Information Display",
     image: "",
-    netlify: "null",
+    netlify: null,
     heading: "A SHARED FAMILY DASHBOARD",
     description:
       "An information display that brings together multiple Google Calendars into a single shared view. Built to give the whole family a clear overview of upcoming activities, appointments and events. The project combines API integrations, information design and usability to solve a real everyday problem.",
-    github: "null",
+    github: null,
     tools: [
       "Google Calendar API",
       "Information Design",
