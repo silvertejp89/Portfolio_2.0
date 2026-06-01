@@ -13,8 +13,8 @@ const mainProjects = [
       "Cloud Infrastructure",
       "API Integration",
       "Database Design",
-      "AI-generated Content",
       "Access Management",
+      "AI-generated Content",
     ],
   },
   {
