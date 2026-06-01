@@ -20,7 +20,8 @@ const mainProjects = [
   {
     id: 11,
     title: "Family Information Display",
-    image: "https://i.ibb.co/WNY9Z06H/image.png",
+    image:
+      "https://i.ibb.co/tPHmLFNh/Chat-GPT-Image-Jun-1-2026-02-14-04-PM.png",
     netlify: null,
     heading: "A SHARED FAMILY DASHBOARD",
     description:
