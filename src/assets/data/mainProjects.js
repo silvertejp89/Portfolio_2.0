@@ -92,7 +92,7 @@ const mainProjects = [
     heading: "A TODO-APP WITH COMPASSION (under reconstruction)",
     description:
       "An application that makes it easier to get help or help others with for example everyday tasks. Givers game is a todo-app that makes it possible to list tasks and distribute responsibilities. You create groups and invite members that wants to contribute.",
-    github: "https://github.com/Mattsson717/kriss-patrik-final",
+    github: null,
     tools: [
       "React",
       "Redux",
